@@ -42,8 +42,6 @@ fun main() {
             if (co2.size == 1)
                 break
         }
-        println(oxyGen)
-        println(co2)
         return Integer.parseInt(oxyGen[0], 2) * Integer.parseInt(co2[0], 2)
     }
 
